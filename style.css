@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: lightblue;
 }
 
 textarea {
@@ -13,9 +14,15 @@ textarea {
   padding: 10px;
 }
 
+.display-3 {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: lightblue;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -23,11 +30,14 @@ textarea {
 
 .description {
   white-space: pre-wrap;
+  box-shadow: 20px 20px 22px 5px rgba(0, 65, 232, 1);
 }
 
 .time-block {
   text-align: center;
   border-radius: 15px;
+  box-shadow: 20px 20px 22px 5px rgba(0, 65, 232, 1);
+  padding-bottom: 20px; 
 }
 
 .row {
@@ -40,6 +50,8 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  box-shadow: 20px 20px 22px 5px rgba(0, 65, 232, 1);
+  font-weight: bold;
 }
 
 .past {
@@ -63,6 +75,9 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  box-shadow: 20px 20px 22px 5px rgba(0, 65, 232, 1);
+  font-weight: bold;
+  color: black;
 }
 
 .saveBtn i:hover {
